@@ -9,8 +9,7 @@ import lombok.NonNull;
 @Data
 public class Movie {
 
-    public Movie(String id, @NonNull String title) {
-        this.id = id;
+    public Movie(@NonNull String title) {
         this.title = title;
     }
 
