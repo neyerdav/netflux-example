@@ -9,6 +9,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class MovieEvent {
 
+    public MovieEvent(String movieId, Date date) {
+        this.movieId = movieId;
+        this.date = date;
+    }
+
     private String movieId;
         private Date date;
 

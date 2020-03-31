@@ -18,4 +18,8 @@ public class Movie {
     @NonNull
     private String title;
 
+    public String toString() {
+        return "Name: " + title + " ID: " + id;
+    }
+
 }
