@@ -1,9 +1,8 @@
-package dev.neyerdavid.repositories;
+package dev.neyerdavid.netfluxexample.repositories;
 
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
 import dev.neyerdavid.netfluxexample.domain.Movie;
 
 public interface MovieRepository extends ReactiveMongoRepository<Movie, String> {
-
 }
